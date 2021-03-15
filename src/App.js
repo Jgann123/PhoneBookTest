@@ -7,7 +7,7 @@ function App() {
   const [contacts, setcontacts] = useState([]);
 
   const getContacts = () => {
-    db.collection("contacts").onSnapshot((snapshot) => {
+    db.collection("contact").onSnapshot((snapshot) => {
       setcontacts(
         snapshot.docs.map((doc) => {
           return {

@@ -1,0 +1,10 @@
+.formContacts {
+    display: flex;
+    justify-content: space-around;
+}
+
+#Contacts{
+
+    width: 100%;
+    height: 100%;
+}

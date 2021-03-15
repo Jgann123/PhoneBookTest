@@ -5,21 +5,21 @@ import styled from 'styled-components';
 
 function Header() {
     return (
-        <HeaderContainer>
+        <Container fluid>
         <UserAvatar>
         
-        <img src="/images/SmallFacePic.jpg" alt="" />
+        <img src="/images/PhonIcon.jpg" alt="" />
         </UserAvatar>
-        <h1>Users' Phonebook</h1>
+        <h1>Contacts</h1>
         <hr></hr>
-        </HeaderContainer>
+        </Container>
     )
 }
 
 export default Header
 
 
-const HeaderContainer = styled.div  `
+const Container = styled.div  `
   display: flex;
   height: 100px;
   width: 100%;
