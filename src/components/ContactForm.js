@@ -36,6 +36,9 @@ function ContactForm(props) {
       firstName: userFirstName,
       lastName: userLastName,
       phone: userPhone
+    })
+    .then(function(docRef){
+      console.log(docRef.id);
     })}
   }
 

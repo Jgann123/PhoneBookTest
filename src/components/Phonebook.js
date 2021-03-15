@@ -28,13 +28,18 @@ function Phonebook(props) {
     });
   };
 
+  
+
   useEffect(() => {
     getContacts();
   }, []);
 
+
+
   const removeContact = () => {
+  
     db.collection("contact")
-      .doc("contact.id")
+      .doc("JCjST1yMqS86vfCZKMwu")
       .delete()
       .then(() => {
         console.log("twas deleted");
